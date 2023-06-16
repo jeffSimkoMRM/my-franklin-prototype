@@ -1,4 +1,4 @@
-import Swiper from '../../scripts/swiper-bundle.esm.browser.min.js';
+import Swiper from '../../scripts/swiper-bundle.esm.browser.js';
 
 /**
  * Decorates a DOM block element as a Swiper carousel.
@@ -82,6 +82,4 @@ export default function decorateCarousel(block) {
             prevEl: '.swiper-button-prev',
         }
     });
-    
-    console.log('Swiper block', block);
 }
