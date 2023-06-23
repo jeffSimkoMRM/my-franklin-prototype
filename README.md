@@ -1,5 +1,5 @@
 # Your Project's Title...
-Your project's description...
+Prototype Franklin Site
 
 ## Environments
 - Preview: https://main--my-franklin-prototype--jeffsimkomrm.hlx.page/
