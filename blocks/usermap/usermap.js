@@ -1,10 +1,5 @@
 import GoogleMapsApiLoader from '../../scripts/GoogleMapsApiLoader.js';
-
-async function fetchData(url) {
-    const resp = await fetch(url);
-    const json = await resp.json();
-    return json;
-}
+import { fetchData } from '../../scripts/lib-franklin.js';
 
 async function renderMap(block, users) {
     

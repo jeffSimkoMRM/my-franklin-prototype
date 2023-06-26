@@ -649,6 +649,17 @@ export function setup() {
 }
 
 /**
+ * Fetch JSON Data
+ */
+export async function fetchData(url) {
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+  return response.json();
+}
+
+/**
  * Auto initializiation.
  */
 function init() {
