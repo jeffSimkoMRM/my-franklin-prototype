@@ -1,0 +1,42 @@
+div.list-wrapper {
+    max-height: 400px;
+    overflow: auto;
+}
+
+div.list-wrapper table, 
+div.list-wrapper table th, 
+div.list-wrapper table td {
+    border: 1px solid;
+    font-size: 12px;
+}
+
+div.list-wrapper table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div.list-wrapper thead {
+    position: sticky;
+    top: 0;
+}
+
+div.list-wrapper th, 
+div.list-wrapper td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    padding: 5px 0.5vw;
+}
+
+div.list-wrapper th {
+    background-color: var(--link-color);
+    color: white;
+}
+
+div.list-wrapper tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+div.list-wrapper tr:hover {
+    background-color: #ddd;
+}
